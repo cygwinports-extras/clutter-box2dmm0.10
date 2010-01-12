@@ -1,0 +1,3 @@
+category: X11
+sdesc: "C++ clutter-box2d bindings (sources)"
+ldesc: "C++ bindings for the Clutter box2d library."

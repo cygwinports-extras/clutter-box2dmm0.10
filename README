@@ -1,0 +1,58 @@
+clutter-box2dmm0.10
+------------------------------------------
+C++ bindings for the Clutter box2d library.
+
+Runtime requirements:
+  cygwin-1.7.1-1
+  libclutter-box2d0.10_0-0.10.0-2
+  libcluttermm1.0_0-0.9.5-1
+  libgcc1-4.3.4-3
+  libglibmm2.4_1-2.22.1-1
+  libsigc2.0_0-2.2.4.2-1
+  libstdc++6-4.3.4-3
+
+Build requirements:
+(besides corresponding -devel packages)
+  autoconf2.5-2.65-10
+  automake1.11-1.11.1-1
+  binutils-2.19.51-1
+  cygport-0.9.80-1
+  gawk-3.1.7-1
+  gcc4-core-4.3.4-3
+  gcc4-g++-4.3.4-3
+  libtool-2.2.7a-14
+  make-3.81-2
+  mm-common-0.8-1
+  pkg-config-0.23b-10
+  sed-4.1.5-2
+
+Canonical website:
+  http://www.gtkmm.org/
+
+Canonical download:
+  ftp://ftp.gnome.org/pub/GNOME/sources/clutter-box2dmm/
+
+-------------------------------------------
+
+Build instructions:
+  unpack clutter-box2dmm0.10-0.9.1-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./clutter-box2dmm0.10-0.9.1-X.cygport all
+
+This will create:
+  /usr/src/clutter-box2dmm0.10-0.9.1-X-src.tar.bz2
+  /usr/src/libclutter-box2dmm0.10-devel-0.9.1-X.tar.bz2
+  /usr/src/libclutter-box2dmm0.10_0-0.9.1-X.tar.bz2
+
+-------------------------------------------
+
+Port Notes:
+
+----- version 0.9.1-1 -----
+Initial release for Cygwin 1.7.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/

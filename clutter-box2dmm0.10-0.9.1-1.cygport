@@ -1,0 +1,8 @@
+ORIG_PN="clutter-box2dmm"
+inherit gtkmm
+
+PKG_NAMES="${PN} lib${PN}_0 lib${PN}-devel"
+libclutter_box2dmm0_10_0_CONTENTS="usr/bin/cygclutter-box2dmm-0.10-0.dll
+                                   usr/share/doc/Cygwin/ usr/share/doc/${PN}/"
+libclutter_box2dmm0_10_devel_CONTENTS="usr/include/ usr/lib/ usr/share/clutter-box2dmm-0.10/
+                                      usr/share/devhelp/ usr/share/doc/clutter-box2dmm-0.10/"
